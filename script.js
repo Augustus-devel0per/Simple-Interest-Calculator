@@ -15,13 +15,13 @@ function compute() {
     "result"
   ).innerHTML =
     "If you deposit " +
-    principal +
+    `<mark> ${principal}</mark>` +
     ",<br>at an interest rate of " +
-    rate +
+    `<mark>${rate}</mark>` +
     "%<br>You will receive an amount of " +
-    interest +
+    `<mark>${interest}</mark>` +
     ",<br>in the year " +
-    year +
+    `<mark>${year}</mark>` +
     "<br>";
 
   if (principal <= 0) {
