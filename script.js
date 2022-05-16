@@ -26,7 +26,7 @@ function compute() {
 
   if (principal <= 0) {
     alert("Enter a Positive Number");
-    principal.focus();
+    var principal = document.getElementById("principal").focus();
   } else {
     //
   }
